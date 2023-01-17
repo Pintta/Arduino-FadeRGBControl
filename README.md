@@ -1,6 +1,9 @@
 # Arduino-FadeRGBControl
 This is simple Arduino Fade RGB Control :)
 
+ADDED:
+Sound reaction control :)
+
 Download Arduino software :)
 https://www.arduino.cc/en/software
 

@@ -1,9 +1,9 @@
-int xac = 13; // ACTIVATED SENSOR
+int xac = 13; // ACTIVATED SENSOR // PIN 13
 int fadeAmount = 3;  // How many checkpoints for fade, this 3 is perfect default, but if you want use 5 :)
 int k = 0; // Don't touch them
-int xp = 7; // Red (R)
-int xv = 6; // Green (G)
-int xs = 5; // Blue (B)
+int xp = 7; // Red (R) // PIN 7
+int xv = 6; // Green (G) // PIN 6
+int xs = 5; // Blue (B) // PIN 5
 
 void setup() {
   pinMode(xp, OUTPUT);

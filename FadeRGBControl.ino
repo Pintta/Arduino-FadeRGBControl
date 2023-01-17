@@ -22,5 +22,5 @@ void loop() {
   if (k <= 0 || k >= 125) {
     fadeAmount = -fadeAmount;
   }
-  delay(100);
+  delay(100); // DELAY MEAN TIME MS, DEFAULT 100MS = 0,1 SECONDS
 }

@@ -1,8 +1,8 @@
-int fadeAmount = 3;  // how many points to fade the LED by
-int k = 0;
-int xp = 7; // RED
-int xv = 6; // GREEN
-int xs = 5; // BLUE
+int fadeAmount = 3;  // How many checkpoints for fade, this 3 is perfect default, but if you want use 5 :)
+int k = 0; // Brightness
+int xp = 7; // Red (R)
+int xv = 6; // Green (G)
+int xs = 5; // Blue (B)
 
 // IF YOU WANT BUT ANOTHER PINS. CHANGE XP, XV, XS PIN VALUES ANOTHER :)
 // DEFAULT PINS 5, 6, 7

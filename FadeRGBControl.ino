@@ -5,6 +5,8 @@ int xv = 6; // GREEN
 int xs = 5; // BLUE
 
 // IF YOU WANT BUT ANOTHER PINS. CHANGE XP, XV, XS PIN VALUES ANOTHER :)
+// DEFAULT PINS 5, 6, 7
+// DON'T MISS GROUND CABLE :)
 
 void setup() {
   pinMode(xp, OUTPUT);

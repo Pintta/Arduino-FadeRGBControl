@@ -1,7 +1,7 @@
 // MODE
 int fadeAmount = 3;  // How many checkpoints for fade, this 3 is perfect default, but if you want use 5 :)
 int k = 0; // Don't touch them
-int xaxa = digitalRead(xac);
+int xaxa = digitalRead(xac); // Don't touch them
 // PIN
 int xac = 13; // ACTIVATED SENSOR // PIN 13
 int xp = 7; // Red (R) // PIN 7

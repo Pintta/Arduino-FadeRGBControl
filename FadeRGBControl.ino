@@ -1,5 +1,5 @@
 int fadeAmount = 3;  // How many checkpoints for fade, this 3 is perfect default, but if you want use 5 :)
-int k = 0; // Brightness
+int k = 0; // Don't touch them
 int xp = 7; // Red (R)
 int xv = 6; // Green (G)
 int xs = 5; // Blue (B)
@@ -19,7 +19,7 @@ void loop() {
   analogWrite(xv, k);
   analogWrite(xs, k);
   k = k + fadeAmount;
-  if (k <= 0 || k >= 125) {
+  if (k <= 0 || k >= 125) { // 125 is default brightness value and maxium is 255, minium is 0 :)
     fadeAmount = -fadeAmount;
   }
   delay(100); // DELAY MEAN TIME MS, DEFAULT 100MS = 0,1 SECONDS
